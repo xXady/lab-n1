@@ -14,6 +14,8 @@ else:
 
     m = b1 - a1
 
+k = a/b
+
 print(a + b)
 
 print(a - b)
@@ -23,3 +25,5 @@ print(a * b)
 print((a+b)/2)
 
 print(m)
+
+print("Частное чисел с точностью до сотых равно:",f"{k:.2f}")
